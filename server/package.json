@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "prestart": "grats --output=schema.graphql",
+    "start": "cross-env PRODUCTION=true tsx src/index.ts",
+    "dev": "nodemon",
+    "gql": "grats --output=schema.graphql"
+  },
+  "dependencies": {
+    "@hono/graphql-server": "^0.4.0",
+    "@hono/node-server": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "graphql": "^16.8.1",
+    "grats": "^0.0.2",
+    "hono": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5",
+    "nodemon": "^3.0.1",
+    "tsx": "^3.12.2",
+    "typescript": "^5.2.2"
+  }
+}
