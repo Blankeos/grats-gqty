@@ -1,6 +1,6 @@
 ### GQTY + Grats
 
-Built this working example for
+Built this working example for https://github.com/gqty-dev/gqty/issues/1608
 
 A working example of Grats + GQTY.
 
